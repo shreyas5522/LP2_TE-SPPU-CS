@@ -6,9 +6,9 @@ class a6_Assignment_DiffieHellman {
     public static void main(String[] args) {
         // Get input from the user
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter modulo(p)");
+        System.out.println("Enter modulo(p) [Integer]: ");
         int p = sc.nextInt();
-        System.out.println("Enter primitive root of " + p);
+        System.out.println("Enter primitive root of  [Integer]: " + p);
         int g = sc.nextInt();
         System.out.println("Enter 1st secret number (Alice)");
         int a = sc.nextInt();
